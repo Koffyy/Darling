@@ -2,7 +2,7 @@
   "name": "koyie",
   "version": "1.0.0",
   "description": "",
-  "main": "koyie.js",
+  "main": "index.js",
   "dependencies": {
     "cpu-stat": "^2.0.1",
     "discord.js": "^12.3.1",
