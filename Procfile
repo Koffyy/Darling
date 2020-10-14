@@ -1,1 +1,1 @@
-work : node koyie.js
+work:node index.js
