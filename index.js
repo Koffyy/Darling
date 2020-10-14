@@ -32,7 +32,15 @@ console.log(`Bots is ready and working in ${bot.guilds.cache.size} servers with 
     }, 1800000); */
     
 
-bot.user.setActivity(`My darling d?help`, {type: "STREAMING", url:"https://twitch.tv/koffyy_"});
+const statuses = [
+        () => `Use k?help | ${bot.guilds.cache.size} serveurs !`,
+        () => `Use k?help | ${bot.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)} utilisateurs !`
+    ]
+    let i = 0
+    setInterval(() => {
+        bot.user.setActivity(statuses[i](), {type: 'WATCHING'})
+        i = ++i % statuses.length
+    }, 1e4)
     
 
 try {
