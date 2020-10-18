@@ -6,5 +6,5 @@
 `k?meme` **Send meme** __Usage__: *k?meme*
 `k?joke` **Send a joke** __Usage__: *k?joke*
 `k?lovemetter` **lovemetter someone** __Usage__: *k?lovemetter <@user>*
-`k?!calculate` **Calculate a calcul** __Usage__: *k?calculate <question>*
+`k?calculate` **Calculate a calcul** __Usage__: *k?calculate <question>*
 `k?reverse` **Reverse a text** __Usage__: *k?reverse <text>*
