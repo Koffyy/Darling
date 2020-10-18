@@ -1,10 +1,10 @@
-`k?8ball` **Ask the bot something** __Usage__: *8ball <question>*
-`k?weather` **Shows the weather in a place** __Usage__: *weather <place> [country]*
-`k?hug` **hug someone** __Usage__: *hug <@user>*
-`k?!kiss` **kiss someone** __Usage__: *kiss <@user>*
-`k?rate` **Rate someone** __Usage__: *rate <@user>*
-`k?meme` **Send meme** __Usage__: *meme*
-`k?joke` **Send a joke** __Usage__: *joke*
-`k?lovemetter` **lovemetter someone** __Usage__: *lovemetter <@user>*
-`k?!calculate` **Calculate a calcul** __Usage__: *calculate <question>*
-`k?reverse` **Reverse a text** __Usage__: *reverse <text>*
+`k?8ball` **Ask the bot something** __Usage__: *k?8ball <question>*
+`k?weather` **Shows the weather in a place** __Usage__: *k?weather <place> [country]*
+`k?hug` **hug someone** __Usage__: *k?hug <@user>*
+`k?!kiss` **kiss someone** __Usage__: *k?kiss <@user>*
+`k?rate` **Rate someone** __Usage__: *k?rate <@user>*
+`k?meme` **Send meme** __Usage__: *k?meme*
+`k?joke` **Send a joke** __Usage__: *k?joke*
+`k?lovemetter` **lovemetter someone** __Usage__: *k?lovemetter <@user>*
+`k?!calculate` **Calculate a calcul** __Usage__: *k?calculate <question>*
+`k?reverse` **Reverse a text** __Usage__: *k?reverse <text>*
