@@ -1,6 +1,6 @@
-`!avatar` **Gives you someone's avatar** __Usage__: *!avatar [@user]*
-`!icon` **Gives you the server icon** __Usage__: *!icon*
-`!botinfo` **Gives the bot info** __Usage__: *!botinfo*
-`!userinfo` **Gives you the user info** __Usage__: *!userinfo [@user]*
-`!serverinfo` **Gives you the server info** __Usage__: *!serverinfo*
-`!finduser`  **Finds users with this name** __Usage__: *!finduser <name>*
+`k?avatar` **Gives you someone's avatar** __Usage__: *avatar [@user]*
+`k?icon` **Gives you the server icon** __Usage__: *icon*
+`k?botinfo` **Gives the bot info** __Usage__: *botinfo*
+`k?userinfo` **Gives you the user info** __Usage__: *userinfo [@user]*
+`k?serverinfo` **Gives you the server info** __Usage__: *serverinfo*
+`k?finduser`  **Finds users with this name** __Usage__: *finduser <name>*
