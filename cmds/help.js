@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
     let bicon = bot.user.displayAvatarURL();
     const pidor = message.guild.members.cache.get(args[0]) || message.member;
 
-    message.channel.send("<:NamiWonk:765001436315910165> Nami : Let's show command of Koyie ! <:LogPose:765010226214076416>")
+    message.channel.send("<:NamiWonk:765001436315910165> Nami : Let's show command of Koyo ! <:LogPose:765010226214076416>")
 
     let funEmbed = new Discord.MessageEmbed()
     .setThumbnail(bicon)
