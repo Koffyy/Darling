@@ -32,7 +32,7 @@ module.exports.run = async (bot, message, args) => {
            .addField("Date", `${current.date}`, true)
            
            //Display when it's called
-           message.channel.sendEmbed(embed)
+           message.channel.send(embed)
 
     });
 
