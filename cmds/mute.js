@@ -4,7 +4,7 @@ module.exports.run = async (bot, message, args) => {
 
     // Check perms, self, rank, etc
     if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.send("You do not have Permission to mute!");
-    let toMute = message.mentions.members.first() || message.guild.members.get(args[0]);
+    let toMute = message.mentions.members.first() || message.guilds.members.get(args[0]);
     if(!toMute) return message.channel.send("You did not specify a user mention or ID!");
     if(toMute.id === message.author.id) return message.channel.send("You can not mute yourself!");
     if(toMute.highestRole.position >= message.member.highestRole.position) return message.channel.send("You can not mute a member that is equal to or higher than yourself!");
