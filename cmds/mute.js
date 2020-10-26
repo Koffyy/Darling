@@ -49,12 +49,6 @@ module.exports.run = async (bot, message, args) => {
 
     // Add the mentioned user to the "mutedRole" and notify command sender
     await toMute.addRole(mutedRole);
-    
-
-    fs.writeFile("./muted.json", JSON.stringify(bot.muted, null, 4), err => {
-        if(err) throw err;
-        message.channel.send(`I have muted ${toMute.user.tag}!`);
-    });
 
 }
 
